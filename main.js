@@ -25,7 +25,8 @@ form.onsubmit = async (event) => {
     - Nama Lengkap: ${name}
     - Minat Utama: ${interests}
     - Nilai: Matematika = ${math}, IPA = ${science}, Bahasa = ${language}
-    - Kepribadian: ${personality}`;
+    - Kepribadian: ${personality}
+    Coba analisan dengan baik dan pertimbangkan ketika kita melihat minat, nilai mata pelajaran (0 - 100), serta kepribadiannya`;
 
   try {
     // Struktur konten untuk API Gemini
